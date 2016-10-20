@@ -18,33 +18,35 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 a {
+  display: block;
   text-decoration: none;
   color: #333;
 }
 
-span {
+a:hover {
+  background-color: #e6e6e6;
   color: #000;
 }
 
 .btn {
   border: 3px solid;
-  border-radius: 8px;
+  border-radius: 5px;
   border-color: #000;
 }
 
 .card {
-  display: inline-block;
   border: 3px solid;
-  border-radius: 8px;
+  border-radius: 5px;
   border-color: #000;
   background-color: #fff;
 }
 
-img {
+.card:hover .btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.img-flex {
   width: 25%;
 }
